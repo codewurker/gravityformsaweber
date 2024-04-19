@@ -1,0 +1,212 @@
+# Copyright (C) 2023 Gravity Forms
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms AWeber Add-On 4.0.0\n"
+"Report-Msgid-Bugs-To: https://gravityforms.com/support\n"
+"Last-Translator: Gravity Forms <support@gravityforms.com>\n"
+"Language-Team: Gravity Forms <support@gravityforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-17T15:56:53+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: gravityformsaweber\n"
+
+#. Plugin Name of the plugin
+msgid "Gravity Forms AWeber Add-On"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://gravityforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Integrates Gravity Forms with AWeber, allowing form submissions to be automatically sent to your AWeber account."
+msgstr ""
+
+#. Author of the plugin
+msgid "Gravity Forms"
+msgstr ""
+
+#: class-gf-aweber.php:207
+msgid "Subscribe user to AWeber only when payment is received."
+msgstr ""
+
+#. translators: Confirmation question displayed when user clicks button to disconnect Aweber
+#: class-gf-aweber.php:284
+msgid "Are you sure you want to disconnect AWeber?"
+msgstr ""
+
+#: class-gf-aweber.php:342
+msgid "AWeber Account Information"
+msgstr ""
+
+#. translators: 1: Open link tag, 2: Close link tag.
+#: class-gf-aweber.php:347
+msgid "AWeber is an email marketing software for designers and their clients. Use Gravity Forms to collect customer information and automatically add it to your client's AWeber subscription list. If you don't have an AWeber account, you can %1$ssign up for one here%2$s"
+msgstr ""
+
+#: class-gf-aweber.php:357
+msgid "You can find your unique Authorization code by clicking on the link above and logging into your AWeber account."
+msgstr ""
+
+#: class-gf-aweber.php:489
+msgid "SSL Certificate Required"
+msgstr ""
+
+#. translators: 1: Open link tag, 2: Close link tag.
+#: class-gf-aweber.php:492
+msgid "Make sure you have an SSL certificate installed and enabled, then %1$sclick here to continue%2$s."
+msgstr ""
+
+#: class-gf-aweber.php:533
+msgid "Connect to AWeber"
+msgstr ""
+
+#: class-gf-aweber.php:545
+msgid "Disconnect from AWeber"
+msgstr ""
+
+#: class-gf-aweber.php:574
+msgid "Unable to connect to AWeber due to mismatched state."
+msgstr ""
+
+#: class-gf-aweber.php:581
+msgid "Unable to connect your AWeber account."
+msgstr ""
+
+#: class-gf-aweber.php:596
+msgid "Authentication with Aweber was not successful."
+msgstr ""
+
+#. translators: 1: Open link tag, 2: Close link tag.
+#: class-gf-aweber.php:678
+msgid "You are connected to AWeber using an authentication method that might be deprecated soon, please connect using the new authentication method to avoid any foreseeable issues. %1$sLearn more.%2$s"
+msgstr ""
+
+#: class-gf-aweber.php:786
+msgid "Access denied."
+msgstr ""
+
+#: class-gf-aweber.php:792
+msgid "Unable to deauthorize because API could not be initialized."
+msgstr ""
+
+#: class-gf-aweber.php:886
+msgid "AWeber Feed"
+msgstr ""
+
+#: class-gf-aweber.php:891
+#: class-gf-aweber.php:897
+#: class-gf-aweber.php:1215
+msgid "Name"
+msgstr ""
+
+#: class-gf-aweber.php:898
+msgid "Enter a feed name to uniquely identify this setup."
+msgstr ""
+
+#: class-gf-aweber.php:903
+#: class-gf-aweber.php:911
+msgid "Account"
+msgstr ""
+
+#: class-gf-aweber.php:912
+msgid "Select the AWeber account you would like to add your contacts to."
+msgstr ""
+
+#: class-gf-aweber.php:917
+#: class-gf-aweber.php:926
+msgid "Contact List"
+msgstr ""
+
+#: class-gf-aweber.php:922
+msgid "Unable to get lists."
+msgstr ""
+
+#: class-gf-aweber.php:927
+msgid "Select the AWeber list you would like to add your contacts to."
+msgstr ""
+
+#: class-gf-aweber.php:932
+#: class-gf-aweber.php:938
+msgid "Map Fields"
+msgstr ""
+
+#: class-gf-aweber.php:939
+msgid "Associate your AWeber fields to the appropriate Gravity Form fields by selecting the appropriate form field from the list."
+msgstr ""
+
+#: class-gf-aweber.php:947
+#: class-gf-aweber.php:950
+msgid "Tags"
+msgstr ""
+
+#: class-gf-aweber.php:951
+msgid "Associate tags to your AWeber subscribers with a comma separated list. (e.g. new lead, Gravity Forms, web source)"
+msgstr ""
+
+#: class-gf-aweber.php:956
+#: class-gf-aweber.php:961
+msgid "Conditional Logic"
+msgstr ""
+
+#: class-gf-aweber.php:962
+msgid "When conditional logic is enabled, form submissions will only be exported to AWeber when the condition is met. When disabled all form submissions will be exported."
+msgstr ""
+
+#: class-gf-aweber.php:1050
+msgid "Select Account"
+msgstr ""
+
+#: class-gf-aweber.php:1119
+msgid "Select List"
+msgstr ""
+
+#: class-gf-aweber.php:1216
+msgid "AWeber Account"
+msgstr ""
+
+#: class-gf-aweber.php:1217
+msgid "AWeber List"
+msgstr ""
+
+#: class-gf-aweber.php:1239
+msgid "Invalid ID"
+msgstr ""
+
+#: class-gf-aweber.php:1273
+msgid "List not found in AWeber"
+msgstr ""
+
+#: class-gf-aweber.php:1317
+msgid "Unable to subscribe user because API could not be initialized."
+msgstr ""
+
+#: class-gf-aweber.php:1327
+msgid "Unable to subscribe user because email address was invalid."
+msgstr ""
+
+#: class-gf-aweber.php:1337
+msgid "Unable to subscribe user because account ID was invalid."
+msgstr ""
+
+#: class-gf-aweber.php:1606
+msgid "Email Address"
+msgstr ""
+
+#: class-gf-aweber.php:1612
+msgid "Full Name"
+msgstr ""
+
+#: includes/class-gf-aweber-api.php:102
+msgid "Refresh token must be provided."
+msgstr ""
+
+#. translators: A request sent to Aweber returned an error, no error details available.
+#: includes/class-gf-aweber-api.php:344
+msgid "Your request can not be processed by Aweber, no error details available."
+msgstr ""
